@@ -21,7 +21,7 @@ body {
 }
 
 #main-img {
-    max-width: 50%;
+    max-width: 55%;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
@@ -53,14 +53,14 @@ body {
     position: fixed;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .nav-bar button {
     background: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
 }
 
@@ -75,7 +75,7 @@ body {
     border-radius: 10px;
     text-align: center;
     display: none;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .hidden {
