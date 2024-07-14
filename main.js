@@ -23,6 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.getElementById('main-img').addEventListener('click', () => {
+    const mainImg = document.getElementById('main-img');
+    mainImg.classList.add('animated');
+
+    setTimeout(() => {
+        mainImg.classList.remove('animated');
+    }, 500);
+
     if (level === 1) {
         balance += 1;
     } else if (level === 2) {
