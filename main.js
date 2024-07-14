@@ -36,7 +36,7 @@ document.getElementById('main-img').addEventListener('click', () => {
 
         if (balance >= 10 && level === 1) {
             level = 2;
-            showPopup();
+            showPopup("wow🤣 you are upgraded to level 2");
             localStorage.setItem(`level_${user.id}`, level);
         }
     }
@@ -46,11 +46,20 @@ document.getElementById('tap').addEventListener('click', () => {
     window.location.href = 'main.html';
 });
 
-function showPopup() {
+document.getElementById('boost').addEventListener('click', () => {
+    showPopup("በቅርቡ Boost system ሰርተን እንጨርሳለን, እስከዛ ከኛ ጋር ይሁኑ!");
+});
+
+document.getElementById('frens').addEventListener('click', () => {
+    showPopup("To get referral link:\n1. Open the bot\n2. Click referral link button\n3. Get your referral link");
+});
+
+function showPopup(message) {
     const popup = document.getElementById('popup');
+    popup.innerText = message;
     popup.classList.remove('hidden');
     popup.style.display = 'block';
     setTimeout(() => {
         popup.style.display = 'none';
-    }, 3000);
+    }, 5000);
 }

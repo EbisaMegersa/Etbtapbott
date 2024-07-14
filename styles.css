@@ -21,7 +21,7 @@ body {
 }
 
 #main-img {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@ body {
     background: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
 }
 
@@ -49,12 +49,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: purple;
     color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     display: none;
+    max-width: 100%;
 }
 
 .hidden {
