@@ -23,7 +23,7 @@ body {
 #main-img {
     max-width: 55%;
     height: auto;
-    cursor: pointer;
+    cursor: none;
     transition: transform 0.3s;
 }
 
